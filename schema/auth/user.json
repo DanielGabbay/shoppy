@@ -1,0 +1,22 @@
+[
+  {
+    "_id": {
+      "$oid": "63a93f764b33efd90e228270"
+    },
+    "name": {
+      "first": "John",
+      "last": "Doe"
+    },
+    "address": {
+      "street": "123 Main Street",
+      "city": "New York",
+      "country": "USA",
+      "zipCode": 10001
+    },
+    "permissions": ["guest", "user"],
+    "dateOfBirth": {
+      "$date": "1970-01-01T00:00:00.000Z"
+    },
+    "groupId": "group1"
+  }
+]
