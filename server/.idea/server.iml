@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="client" />
     <orderEntry type="module" module-name="schema" />
+    <orderEntry type="module" module-name="server-v2" />
   </component>
 </module>
