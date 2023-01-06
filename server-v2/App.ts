@@ -2,11 +2,7 @@ import express = require('express');
 import * as bodyParser from 'body-parser';
 import {DB} from "./config/db.config";
 import {UsersService} from "./services/users.service";
-
-const User = require('./model/user.model');
-
 require('dotenv').config()
-
 
 class App {
     public express: express.Application;
@@ -80,20 +76,6 @@ class App {
         this.express.use(bodyParser.json());
         this.express.use(bodyParser.urlencoded({extended: false}));
     }
-
-
 }
 
-
-// Start the server
-
 export default new App().express;
-
-
-/**
- * סיום ביצוע קריאות למשתמשים כולל: יצירה, קבלה, עדכון ומחיקה
- */
-
-/**in english:
- *
- * */
