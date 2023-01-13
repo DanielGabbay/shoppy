@@ -4,7 +4,7 @@
   "scripts": {
     "start": "ts-node index.ts",
     "dev": "./node_modules/nodemon/bin/nodemon.js",
-    "build": "npm i && ts-node index.ts",
+    "build": "npm run tsc",
     "tsc": "tsc",
     "start:prod": "node ./dist/index.js"
   },
