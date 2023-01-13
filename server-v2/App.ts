@@ -1,7 +1,7 @@
 import express = require('express');
 import * as bodyParser from 'body-parser';
-import {DB} from "../config/db.config";
-import {UsersService} from "../services/users.service";
+import {DB} from "./config/db.config";
+import {UsersService} from "./services/users.service";
 
 require('dotenv').config()
 
