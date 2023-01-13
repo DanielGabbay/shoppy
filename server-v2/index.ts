@@ -1,5 +1,5 @@
 import * as http from "http";
-import App from "./app";
+import App from "./api/App";
 
 require('dotenv').config()
 
