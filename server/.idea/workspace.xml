@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e6eaa24-ce7c-42e2-8eef-354284256cfc" name="Changes" comment="Test Vercel Deployment v10 - change build script">
-      <change beforePath="$PROJECT_DIR$/../server-v2/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/api/App.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server-v2/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server-v2/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/index.ts" afterDir="false" />
+    <list default="true" id="2e6eaa24-ce7c-42e2-8eef-354284256cfc" name="Changes" comment="Test Vercel Deployment v11 - change build script">
+      <change beforePath="$PROJECT_DIR$/../server-v2/vercel.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,7 @@
       <workItem from="1672987915270" duration="4343000" />
       <workItem from="1673003789955" duration="10837000" />
       <workItem from="1673584186761" duration="372000" />
-      <workItem from="1673584576187" duration="5494000" />
+      <workItem from="1673584576187" duration="6034000" />
     </task>
     <task id="LOCAL‎-00001" summary="init">
       <created>1672037299399</created>
@@ -304,7 +302,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1673589666277</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL‎-00023" summary="Test Vercel Deployment v11 - change build script">
+      <created>1673590239644</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL‎-00023" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1673590239644</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +345,7 @@
     <MESSAGE value="Test Vercel Deployment v8 - change build script" />
     <MESSAGE value="Test Vercel Deployment v9 - change build script" />
     <MESSAGE value="Test Vercel Deployment v10 - change build script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Vercel Deployment v10 - change build script" />
+    <MESSAGE value="Test Vercel Deployment v11 - change build script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Vercel Deployment v11 - change build script" />
   </component>
 </project>
