@@ -27,6 +27,7 @@ export class UsersService {
     }
 
 
+
     public async update(id: string, user: IUser): Promise<IUser> {
         return await User.findByIdAndUpdate(id, user, {new: true});
     }
