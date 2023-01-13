@@ -6,7 +6,7 @@
     "dev": "./node_modules/nodemon/bin/nodemon.js",
     "build": "npm i && ts-node index.ts",
     "tsc": "tsc",
-    "start:prod": "npm run tsc && node ./dist/index.js"
+    "start:prod": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
