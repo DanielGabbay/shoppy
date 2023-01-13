@@ -2,7 +2,7 @@
   "name": "server-v2",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc --outDir ./dist",
+    "build": "npm run tsc",
     "tsc": "tsc",
     "start:prod": "node ./dist/index.js"
   },
