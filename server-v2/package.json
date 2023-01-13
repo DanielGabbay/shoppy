@@ -4,7 +4,8 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "ts-node index.ts",
-    "dev": "./node_modules/nodemon/bin/nodemon.js"
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "build": "npm i && ts-node index.ts"
   },
   "keywords": [],
   "author": "",
