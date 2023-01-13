@@ -2,8 +2,6 @@
   "name": "server-v2",
   "version": "1.0.0",
   "scripts": {
-    "start": "ts-node index.ts",
-    "dev": "./node_modules/nodemon/bin/nodemon.js",
     "build": "npm run tsc",
     "tsc": "tsc",
     "start:prod": "node ./dist/index.js"
