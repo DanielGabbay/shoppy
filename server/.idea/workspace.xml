@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e6eaa24-ce7c-42e2-8eef-354284256cfc" name="Changes" comment="Test Vercel Deployment v16 - change build script&#10;&#10;    &quot;dev&quot;: &quot;./node_modules/nodemon/bin/nodemon.js&quot;,">
-      <change beforePath="$PROJECT_DIR$/../server-v2/api/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/App.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server-v2/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="2e6eaa24-ce7c-42e2-8eef-354284256cfc" name="Changes" comment="Test Vercel Deployment v17 - change build script&#10;&#10;    &quot;dev&quot;: &quot;./node_modules/nodemon/bin/nodemon.js&quot;,">
+      <change afterPath="$PROJECT_DIR$/../server-v2/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server-v2/vercel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/App.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/src/App.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/config/db.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/src/config/db.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/config/db.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/src/config/db.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/model/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/src/model/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/model/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/src/model/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/services/users.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/src/services/users.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/services/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/src/services/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server-v2/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../server-v2/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +35,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -62,6 +77,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../server-v2/src" />
       <recent name="$PROJECT_DIR$/../server-v2" />
       <recent name="$PROJECT_DIR$/../server-v2/api" />
       <recent name="$PROJECT_DIR$/../server-v2/dist" />
@@ -150,7 +166,7 @@
       <workItem from="1673003789955" duration="10837000" />
       <workItem from="1673584186761" duration="372000" />
       <workItem from="1673584576187" duration="8598000" />
-      <workItem from="1673606402889" duration="205000" />
+      <workItem from="1673606402889" duration="1420000" />
     </task>
     <task id="LOCAL‎-00001" summary="init">
       <created>1672037299399</created>
@@ -376,7 +392,21 @@
       <option name="project" value="LOCAL‎" />
       <updated>1673592974123</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL‎-00033" summary="Test Vercel Deployment v17 - change build script&#10;&#10;    &quot;dev&quot;: &quot;./node_modules/nodemon/bin/nodemon.js&quot;,">
+      <created>1673607092598</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL‎-00033" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1673607092598</updated>
+    </task>
+    <task id="LOCAL‎-00034" summary="Test Vercel Deployment v17 - change build script&#10;&#10;    &quot;dev&quot;: &quot;./node_modules/nodemon/bin/nodemon.js&quot;,">
+      <created>1673607103094</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL‎-00034" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1673607103094</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +417,6 @@
         <option value="$PROJECT_DIR$/../server-v2/model/user.model.js" />
         <option value="$PROJECT_DIR$/../server-v2/config/db.config.js" />
         <option value="$PROJECT_DIR$/../server-v2/services/users.service.js" />
-        <option value="$PROJECT_DIR$/../server-v2/index.js" />
       </list>
     </option>
   </component>
@@ -418,6 +447,7 @@
     <MESSAGE value="Test Vercel Deployment v14 - change build script" />
     <MESSAGE value="Test Vercel Deployment v15 - change build script" />
     <MESSAGE value="Test Vercel Deployment v16 - change build script&#10;&#10;    &quot;dev&quot;: &quot;./node_modules/nodemon/bin/nodemon.js&quot;," />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Vercel Deployment v16 - change build script&#10;&#10;    &quot;dev&quot;: &quot;./node_modules/nodemon/bin/nodemon.js&quot;," />
+    <MESSAGE value="Test Vercel Deployment v17 - change build script&#10;&#10;    &quot;dev&quot;: &quot;./node_modules/nodemon/bin/nodemon.js&quot;," />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Vercel Deployment v17 - change build script&#10;&#10;    &quot;dev&quot;: &quot;./node_modules/nodemon/bin/nodemon.js&quot;," />
   </component>
 </project>
