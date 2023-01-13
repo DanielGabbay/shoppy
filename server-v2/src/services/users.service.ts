@@ -18,9 +18,9 @@ export class UsersService {
         newUser._id = new mongoose.Types.ObjectId();
 
 
-        return await newUser.save().then((data) => {
+        return await newUser.save().then((data: any) => {
             return data;
-        }).catch((err) => {
+        }).catch((err: any) => {
             debugger;
             console.log(err);
         });
