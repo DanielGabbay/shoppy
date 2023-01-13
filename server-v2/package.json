@@ -7,7 +7,7 @@
     "dev": "./node_modules/nodemon/bin/nodemon.js",
     "build": "npm i && ts-node index.ts",
     "tsc": "tsc",
-    "start:prod": "tsc index.ts && node index.js"
+    "start:prod": "tsc index.ts"
   },
   "keywords": [],
   "author": "",
@@ -27,7 +27,7 @@
     "express": "^4.18.2",
     "logger-ts-node": "^1.0.3",
     "mongodb": "^4.13.0",
-    "mongoose": "^6.8.2",
+    "mongoose": "^6.8.3",
     "pine": "^1.1.1",
     "swagger-jsdoc": "^6.2.7",
     "swagger-ui-express": "^4.6.0",
